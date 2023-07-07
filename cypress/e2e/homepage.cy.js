@@ -8,7 +8,7 @@ describe('HomePage', () => {
         'Testimonials',
         'Newsletter Signup'
     ]
-    
+
     it('validar que estou na home page', () => {
         cy.accessHomePage()
     });
@@ -29,8 +29,8 @@ describe('HomePage', () => {
         cy.checkItemsOnSpecialsSection(productsitemsBySection)
     });
     
-    it('Validar opções About Us, Contact Us. Testimonials, Newsletter Signup do footer ', (labels) => {
-        cy.checkItemsOnFooterSection()
+    it('Validar opções About Us, Contact Us. Testimonials, Newsletter Signup do footer ', () => {
+        cy.checkItemsOnFooterSection(labels)
     })
 
 });
