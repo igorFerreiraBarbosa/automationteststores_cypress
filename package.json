@@ -1,0 +1,11 @@
+{
+  "name": "polymershop_cypress",
+  "version": "1.0.0",
+  "description": "projeto de testes de ecommerce usando cypress",
+  "main": "index.js",
+  "author": "Igor Ferreira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.17.0"
+  }
+}
